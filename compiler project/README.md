@@ -1,13 +1,3 @@
-# Frontend Phase of a C Compiler
-
-## Using the Compiler
-
-```
-lex lexer.l
-yacc -d -v parser.y
-gcc -ll -w y.tab.c
-./a.out<input1.c
-```
 
 ## What is LEX?
 
@@ -16,12 +6,6 @@ LEX is a tool used to generate a lexical analyzer. The input is a set of regular
 ## What is YACC?
 
 YACC (Yet Another Compiler Compiler) is a tool used to generate a parser. It parses the input file and does semantic analysis on the stream of tokens produced by the LEX file. YACC translates a given Context Free Grammar (CFG) specifications into a C implementation y.tab.c. This C program when compiled, yields an executable parser.
-
-## Medium Blog: Building a C Compiler Using Lex and Yacc
-
-A blog where we walk through on how to build the compiler from scratch! Link to the [article](https://spamjaneya.medium.com/building-a-c-compiler-using-lex-and-yacc-446262056aaa).
-
-Check out this amazing tutorial on YouTube by [Jonathan Engelsma.](https://www.youtube.com/watch?v=54bo1qaHAfk)
 
 ## Features of the Compiler
 
