@@ -98,23 +98,3 @@ int main() {
     return 1;
 }
 ```
-
-### Symbol Table
-
-![Symbol Table](/Images/table.png)
-
-### Printing Parse Tree Inorder 
-
-![Symbol Table](/Images/inorder.png)
-
-### Visualising the Parse Tree 
-
-![Symbol Table](/Images/tree.png)
-
-### Semantic Phase
-
-![Symbol Table](/Images/semantic.png)
-
-### Intermediate Code Generation
-
-![Symbol Table](/Images/icg.png)
